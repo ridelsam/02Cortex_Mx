@@ -1,0 +1,20 @@
+22:22:44 **** Incremental Build of configuration Debug for project 013svc_operation ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "013svc_operation.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\rsamonte\Embedded Systems\Cortex_Mx\Workspace_2\013svc_operation\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="013svc_operation.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 013svc_operation.elf
+ 
+arm-none-eabi-size   013svc_operation.elf 
+arm-none-eabi-objdump -h -S  013svc_operation.elf  > "013svc_operation.list"
+arm-none-eabi-objcopy  -O binary  013svc_operation.elf  "013svc_operation.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5916	    108	   1596	   7620	   1dc4	013svc_operation.elf
+Finished building: default.size.stdout
+ 
+Finished building: 013svc_operation.list
+Finished building: 013svc_operation.bin
+ 
+ 
+
+22:22:46 Build Finished. 0 errors, 0 warnings. (took 1s.314ms)
+

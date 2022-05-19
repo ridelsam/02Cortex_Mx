@@ -1,0 +1,7 @@
+main.c:31:9:add_numbers	24	static,ignoring_inline_asm
+main.c:41:9:sub_numbers	24	static,ignoring_inline_asm
+main.c:51:9:mul_numbers	24	static,ignoring_inline_asm
+main.c:61:9:div_numbers	24	static,ignoring_inline_asm
+main.c:74:5:main	16	static
+main.c:97:30:SVC_Handler	0	static,ignoring_inline_asm
+main.c:104:6:SVC_Handler_c	40	static

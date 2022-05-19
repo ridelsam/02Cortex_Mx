@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;operational_mode&apos; to &apos;002operational_mode&apos;" description="Rename resource &apos;operational_mode&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/operational_mode" name="002operational_mode" stamp="1642820421200" updateReferences="true"/>
+</session>

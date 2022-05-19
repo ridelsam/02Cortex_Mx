@@ -1,0 +1,10 @@
+17:17:38 **** Incremental Build of configuration Debug for project 007Stack ****
+make -j12 all 
+arm-none-eabi-size   007Stack.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5488	    108	   1596	   7192	   1c18	007Stack.elf
+Finished building: default.size.stdout
+ 
+
+17:17:39 Build Finished. 0 errors, 0 warnings. (took 467ms)
+

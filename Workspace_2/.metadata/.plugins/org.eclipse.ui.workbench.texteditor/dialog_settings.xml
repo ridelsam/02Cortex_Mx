@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="TASK_READY_STATE"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="TASK_RUNNING_STATE"/>
+			<item value="usart"/>
+		</list>
+		<list key="replacehistory">
+			<item value="TASK_READY_STATE"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,20 @@
+22:46:05 **** Incremental Build of configuration Debug for project 004access_levels ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "004access_levels.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\rsamonte\Embedded Systems\Cortex_Mx\CortexMxProgramming-master\Source_code\001_HelloWorld\004access_levels\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="004access_levels.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 004access_levels.elf
+ 
+arm-none-eabi-size   004access_levels.elf 
+arm-none-eabi-objdump -h -S  004access_levels.elf  > "004access_levels.list"
+arm-none-eabi-objcopy  -O binary  004access_levels.elf  "004access_levels.bin"
+   text	   data	    bss	    dec	    hex	filename
+   3796	    108	   1596	   5500	   157c	004access_levels.elf
+Finished building: default.size.stdout
+ 
+Finished building: 004access_levels.bin
+Finished building: 004access_levels.list
+ 
+ 
+
+22:46:06 Build Finished. 0 errors, 0 warnings. (took 779ms)
+
